@@ -1,9 +1,9 @@
-#include  <stdio.h>
+#include <stdio.h>
 
 /**
- *  main - excution program
+ * main - this excution programm
  *
- *  Return: always zero
+ * Return: is always zerp
  */
 
 int main(void)
@@ -11,4 +11,3 @@ int main(void)
 	printf("with proper grammar, but the outcome is a piece of art,");
 	return (0);
 }
-
