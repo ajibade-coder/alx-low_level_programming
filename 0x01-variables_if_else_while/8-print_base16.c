@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main -excution programm
+ * main - excution programm
  *
- * Reason: always zero
+ * Return: always zero
  */
 
 int main(void)
