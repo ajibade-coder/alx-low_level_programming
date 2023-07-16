@@ -1,26 +1,31 @@
 #include <stdio.h>
 /**
- * main - excution program
+ * main - excute program
  *
- * Return: always zero
+ * Return: Always zero
  */
 
 int main(void)
 {
 	int num;
+	int num_2;
 
-	for (int num  = 0 ; num  <= 9 ; num++)
+	for (num = 0; num < 9; num++)
 	{
-		for (int j = num + 1; j <= 9; j++)
+		for (num_2 = num + 1; num_2 < 10; num_2++)
 		{
-			putchar('0' + num);
-			putchar('0' + j);
-			if (num < 8 || j < 9)
-			{
-				putchar(',');
-				putchar(' ');
-			}
+			putchar((num % 10) + '0');
+			putchar((num_2 % 10) + '0');
+
+			if (num == 8 && num_2 == 9)
+				continue;
+
+			putchar(',');
+			putchar(' ');
 		}
 	}
+
+	putchar('\n');
+
 	return (0);
 }
