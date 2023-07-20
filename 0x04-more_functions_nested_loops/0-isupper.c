@@ -3,7 +3,7 @@
 /**
  * _isupper - excution program
  *
- * @c: parameter
+ * @c: arguement
  *
  * Return: zero or one
  */
