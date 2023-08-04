@@ -15,6 +15,7 @@ int main(int argc, char *argv[])
 {
 	int i;
 	int answer;
+	int zero = 0;
 
 	for (i = 0 ; i <= argc - 1 ; i++)
 	{
@@ -27,7 +28,7 @@ int main(int argc, char *argv[])
 	}
 	if (argc == 1)
 	{
-		printf("0\n");
+		printf("%d\n", zero);
 	}
 
 	else
