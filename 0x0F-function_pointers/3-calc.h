@@ -1,5 +1,5 @@
-#ifndef  _3_calc_h
-#define  _3_calc_h
+#ifndef _3_calc_h
+#define _3_calc_h
 
 int op_add(int a, int b);
 int op_sub(int a, int b);
